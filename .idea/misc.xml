@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/1. Spring-IoC-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Spring-Bean-Demo/pom.xml" />
       </list>
     </option>
   </component>
@@ -12,6 +13,7 @@
     <option name="disabledModuleNames">
       <set>
         <option value="1.Spring-IoC-Demo" />
+        <option value="2.Spring-Bean-Demo" />
       </set>
     </option>
   </component>
