@@ -9,16 +9,31 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
         </processorPath>
         <module name="2.Spring-Bean-Demo" />
         <module name="1.Spring-IoC-Demo" />
       </profile>
+      <profile name="Annotation profile for Spring-Dependency-Injection-Demo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
+        </processorPath>
+        <module name="Spring-Dependency-Injection-Demo" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="3. Spring-Dependency-Injection-Demo" target="27" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="1.Spring-IoC-Demo" options="-parameters" />
       <module name="2.Spring-Bean-Demo" options="-parameters" />
+      <module name="3. Spring-Dependency-Injection-Demo" options="-parameters" />
+      <module name="Spring-Dependency-Injection-Demo" options="-parameters" />
     </option>
   </component>
 </project>

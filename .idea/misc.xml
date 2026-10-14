@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/1. Spring-IoC-Demo/pom.xml" />
         <option value="$PROJECT_DIR$/2. Spring-Bean-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/3.Spring-Dependency-Injection-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Spring-Dependency-Injection-Demo/pom.xml" />
       </list>
     </option>
   </component>
@@ -14,6 +16,7 @@
       <set>
         <option value="1.Spring-IoC-Demo" />
         <option value="2.Spring-Bean-Demo" />
+        <option value="Spring-Dependency-Injection-Demo" />
       </set>
     </option>
   </component>
