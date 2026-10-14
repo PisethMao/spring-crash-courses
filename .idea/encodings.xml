@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/1. Spring-IoC-Demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/2. Spring-Bean-Demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/3. Spring-Dependency-Injection-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Spring-Bean-Scope-Demo/src/main/java" charset="UTF-8" />
   </component>
 </project>

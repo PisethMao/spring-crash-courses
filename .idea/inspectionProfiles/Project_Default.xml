@@ -7,16 +7,19 @@
         <list>
           <option value="Spring-Dependency-Injection-Demo" />
           <option value="Spring-Dependency-Injection-Demo" />
+          <option value="Spring-Dependency-Injection-Demo" />
         </list>
       </option>
       <option name="ignoredPackages">
         <list>
           <option value="tools.jackson.core:jackson-databind:3.1.6" />
           <option value="tools.jackson.core:jackson-core:3.1.6" />
+          <option value="com.fasterxml.jackson.core:jackson-databind:2.21.6" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />
         </list>

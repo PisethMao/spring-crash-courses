@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: 3.Spring-Bean-Scope-Demo
